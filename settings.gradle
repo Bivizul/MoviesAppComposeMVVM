@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Movies App Compose MVVM"
 include ':app'
 include ':utils'
+include ':data'
+include ':domain'
