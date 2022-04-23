@@ -7,17 +7,20 @@ import androidx.navigation.compose.composable
 import com.bivizul.moviesappcomposemvvm.presentation.screens.MainScreen
 import com.bivizul.moviesappcomposemvvm.presentation.screens.Screens
 import com.bivizul.moviesappcomposemvvm.presentation.screens.SplashScreenImpl
+import com.bivizul.moviesappcomposemvvm.presentation.viewmodels.MainViewModel
 
 @Composable
-fun SetupNavHost(navController: NavHostController) {
+fun SetupNavHost(navController: NavHostController, viewModel: MainViewModel) {
     NavHost(
         navController = navController,
         startDestination = Screens.SplashScreen.route
     ) {
         composable(route = Screens.SplashScreen.route) {
-            SplashScreenImpl(navController = navController)
+            SplashScreenImpl(navController = navController, viewModel = viewModel)
         }
-        composable(route = Screens.MainScreen.route) { MainScreen() }
+        composable(route = Screens.MainScreen.route) {
+            MainScreen(navController = navController, viewModel = viewModel)
+        }
         composable(route = Screens.DetailsScreen.route) {}
     }
 }
