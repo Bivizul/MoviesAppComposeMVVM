@@ -1,4 +1,4 @@
-package com.bivizul.moviesappcomposemvvm.di
+package com.bivizul.moviesappcomposemvvm.data.di
 
 import dagger.Module
 import dagger.hilt.InstallIn

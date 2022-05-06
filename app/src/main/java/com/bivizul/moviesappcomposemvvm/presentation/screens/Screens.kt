@@ -1,8 +1,8 @@
 package com.bivizul.moviesappcomposemvvm.presentation.screens
 
-import com.bivizul.moviesappcomposemvvm.constants.Screens.DETAILS_SCREEN
-import com.bivizul.moviesappcomposemvvm.constants.Screens.MAIN_SCREEN
-import com.bivizul.moviesappcomposemvvm.constants.Screens.SPLASH_SCREEN
+import com.bivizul.moviesappcomposemvvm.utils.Screens.DETAILS_SCREEN
+import com.bivizul.moviesappcomposemvvm.utils.Screens.MAIN_SCREEN
+import com.bivizul.moviesappcomposemvvm.utils.Screens.SPLASH_SCREEN
 
 // Запечатанный класс
 sealed class Screens(val route: String) {

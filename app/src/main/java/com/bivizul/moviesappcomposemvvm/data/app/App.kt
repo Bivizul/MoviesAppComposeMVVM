@@ -1,4 +1,4 @@
-package com.bivizul.moviesappcomposemvvm.app
+package com.bivizul.moviesappcomposemvvm.data.app
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

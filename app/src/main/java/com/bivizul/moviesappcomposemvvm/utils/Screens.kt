@@ -1,4 +1,4 @@
-package com.bivizul.moviesappcomposemvvm.constants
+package com.bivizul.moviesappcomposemvvm.utils
 
 object Screens {
     const val SPLASH_SCREEN = "splash_screen"

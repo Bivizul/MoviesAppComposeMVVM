@@ -1,6 +1,6 @@
-package com.bivizul.moviesappcomposemvvm.di
+package com.bivizul.moviesappcomposemvvm.data.di
 
-import com.bivizul.moviesappcomposemvvm.constants.Constants.BASE_URL
+import com.bivizul.moviesappcomposemvvm.utils.Constants.BASE_URL
 import com.bivizul.moviesappcomposemvvm.data.network.ApiService
 import dagger.Module
 import dagger.Provides

@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bivizul.moviesappcomposemvvm.constants.Constants.TAG
+import com.bivizul.moviesappcomposemvvm.utils.Constants.TAG
 import com.bivizul.moviesappcomposemvvm.data.models.Movies
 import com.bivizul.moviesappcomposemvvm.data.network.ApiRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
