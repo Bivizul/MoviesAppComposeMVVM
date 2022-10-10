@@ -1,4 +1,4 @@
-package com.bivizul.moviesappcomposemvvm.ui.theme
+package com.bivizul.moviesappcomposemvvm.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
